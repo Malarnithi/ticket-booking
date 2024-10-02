@@ -13,7 +13,7 @@ import Footer from './components/Footer.js';
 import logo from './components/DK KD Logo.jpg';
 import './App.css';
 
-const isAdmin = false; 
+const isAdmin = true; 
 
 function App() {
   return (

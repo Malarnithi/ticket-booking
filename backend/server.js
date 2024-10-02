@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://127.0.0.1:27017/ecommerce', {
+mongoose.connect('mongodb://127.0.0.1:27017/travelapp', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
